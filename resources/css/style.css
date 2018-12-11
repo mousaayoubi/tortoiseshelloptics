@@ -1,11 +1,13 @@
 html, body {
 	font-size: 18px;
+	line-height: 1.4;
 }
 
 /* HEADER */
 
 .header {
 	display: inline-flex;
+	flex-direction: column;
 	width: 100%;
 	height: 30rem;
 	border: 1px solid grey;
@@ -52,4 +54,19 @@ html, body {
 	font-family: Helvetica;
 	font-size: 1rem;
 	padding-right: 2rem;
+}
+
+.image-box-text {
+	display: inline-flex;
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 2rem;
+	line-height: 1.2;
+	background-color: white;
+	margin-top: 10rem;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	padding-left: 5rem;
+	padding-right: 5rem;
+	margin-left: 25rem;
 }
