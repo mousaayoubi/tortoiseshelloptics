@@ -248,30 +248,15 @@ html, body {
 
 .footer {
 	display: flex;
-	flex-direction: row;
-	width: 960px;
-	margin: 0 auto;
+	align-items: center;
 	background-color: azure;
 	padding-top: 4rem;
 	padding-bottom: 4rem;
 	margin-top: 5rem;
 }
 
-.footer-logo {
-	display: inline-flex;
-	align-items: center;
-	background-image: url("../images/logo-black.png");
-	background-repeat: no-repeat;
-	background-size: contain;
+.footer img {
 	height: 1.5rem;
-	width: 4rem;
-	margin-left: 4rem;
+	padding-left: 4rem;
+	padding-right: 1rem;
 }
-
-.footer-text {
-	display: inline-flex;
-	align-items: center;
-	padding-left: 1rem;
-
-}
-
