@@ -260,3 +260,23 @@ html, body {
 	padding-left: 4rem;
 	padding-right: 1rem;
 }
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1024px) {
+	.header-background {
+		width: 960px;
+		height: 22rem;
+		padding-top: 0px;
+	}
+
+	.image-box {
+		margin-top: 5rem;
+		margin-right: 2rem;
+		padding-top: 0.75rem;
+		padding-bottom: 0.75rem;
+		padding-left: 4rem;
+		padding-right: 4rem;
+		font-size: 1.33rem;
+	}
+}
