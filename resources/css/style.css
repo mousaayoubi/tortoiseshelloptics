@@ -396,10 +396,13 @@ html, body {
 	}
 
 	.bottom-first-text {
+		display: flex;
+		flex-wrap: wrap;
 		width: 100%;
 		font-family: Helevetica;
 		font-size: 0.77rem;
 		padding-bottom: 4rem; 
+		margin-bottom: 4rem;
 	}
 
 	.bottom-container-second {
@@ -417,6 +420,8 @@ html, body {
 	}
 
 	.bottom-second-text {
+		display: flex;
+		flex-wrap: wrap;
 		width: 100%;
 		font-family: Helevetica;
 		font-size: 0.77rem;
