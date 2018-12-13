@@ -80,6 +80,7 @@ html, body {
 	padding-left: 5rem;
 	padding-right: 5rem;
 	margin-left: 25rem;
+	margin-right: -2rem;
 }
 
 /* PRODUCTS */
@@ -286,7 +287,7 @@ html, body {
 
 	.image-box {
 		margin-top: 5rem;
-		margin-right: 2rem;
+		margin-right: -2rem;
 		padding-top: 0.75rem;
 		padding-bottom: 0.75rem;
 		padding-left: 4rem;
