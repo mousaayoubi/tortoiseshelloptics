@@ -274,8 +274,12 @@ html, body {
 /* TABLET */
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.container {
+		width: 1024px;
+	}
+
 	.header-background {
-		width: 960px;
+		width: 100%;
 		height: 22rem;
 		padding-top: 0px;
 	}
@@ -295,11 +299,11 @@ html, body {
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 	.container {
-		width: 480px;
+		width: 100%;
 	}
 
 	.header-background {
-		width: 480px;
+		width: 100%;
 		height: 17rem;
 		padding-top: 0px;
 		background-position: 20%;
@@ -327,7 +331,7 @@ html, body {
 		display: inline-flex;
 		justify-content: center;
 		margin-top: 9rem;
-		width: 480px;
+		width: 100%;
 		margin-left: 0px;
 		padding-top: 1rem;
 		padding-bottom: 1rem;
@@ -373,40 +377,40 @@ html, body {
 	.bottom {
 		display: flex;
 		flex-direction: column;
-		flex-wrap: wrap
-		width: 480px;
+		flex-wrap: nowrap;
+		width: 100%;
 	}
 
 	.bottom-container-first {
-		width: 480px;
+		width: 100%;
 	}
 
 	.bottom-first-title {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		width: 480px;
+		width: 100%;
 		padding-top: 1rem;
 		padding-bottom: 1rem;
 		padding-left: 0px;
 	}
 
 	.bottom-first-text {
-		width: 480px;
+		width: 100%;
 		font-family: Helevetica;
 		font-size: 0.77rem;
 		padding-bottom: 4rem; 
 	}
 
 	.bottom-container-second {
-		width: 480px;
+		width: 100%;
 	}
 
 	.bottom-second-title {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		width: 480px;
+		width: 100%;
 		padding-top: 1rem;
 		padding-bottom: 1rem;
 		margin-top: 4rem;
@@ -414,14 +418,14 @@ html, body {
 	}
 
 	.bottom-second-text {
-		width: 480px;
+		width: 100%;
 		font-family: Helevetica;
 		font-size: 0.77rem;
 		margin-bottom: 4rem; 
 	}
 
 	.footer {
-		width: 480px;
+		width: 100%;
 	}
 
 	.footer-text {
